@@ -15,16 +15,16 @@ export function AudioIcon() {
     updateAudio(!audio);
   };
   return audio ? (
-    <button onClick={onClick} className="fixed top-0 left-0 z-2">
+    <button onClick={onClick} className="fixed top-8 left-0 z-30">
       <SpeakerWaveIcon
-        className="block h-6 w-6 text-white"
+        className="block h-6 w-6 text-rose-500"
         aria-hidden="true"
       />
     </button>
   ) : (
-    <button onClick={onClick} className="fixed top-0 left-0 z-2">
+    <button onClick={onClick} className="fixed top-8 left-0 z-30">
       <SpeakerXMarkIcon
-        className="block h-6 w-6 text-white"
+        className="block h-6 w-6 text-rose-500"
         aria-hidden="true"
         onClick={onClick}
       />

@@ -135,3 +135,75 @@ span:nth-child(9) {
   animation-delay: 2.75s;
   animation-duration: 2.75s;
 }
+
+.fromLeft{
+  position: relative;
+  animation-name: fromLeft;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fromLeft {
+  from {left: -200px;}
+  to {left: 0px;}
+}
+
+.fromRight{
+  position: relative;
+  animation-name: fromRight;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fromRight {
+  from {right: -200px;}
+  to {right: 0px;}
+}
+
+.fromTop{
+  position: relative;
+  animation-name: fromTop;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fromTop {
+  from {top: -50px;}
+  to {top: 0px;}
+}
+
+.fromBottom{
+  position: relative;
+  animation-name: fromBottom;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fromBottom {
+  from {bottom: -50px;}
+  to {bottom: 0px;}
+}
+
+.fromTop1{
+  position: relative;
+  animation-name: fromTop1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fromTop1 {
+  from {top: -20px;}
+  to {top: 0px;}
+}
+
+.fromBottom1{
+  position: relative;
+  animation-name: fromBottom1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fromBottom1 {
+  from {bottom: -20px;}
+  to {bottom: 0px;}
+}

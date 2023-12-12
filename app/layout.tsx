@@ -1,10 +1,21 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { Dancing_Script } from 'next/font/google'
 
+export const dancing = Dancing_Script({
+  subsets: ['latin'],
+  display: 'swap',
+})
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+}
 
 export const metadata: Metadata = {
-  title: 'Đám cưới Tân và Duẩn',
-  description: 'Mời cưới Tân và Duẩn',
+  title: 'Ngọc Tân 💍 Minh Duẩn',
+  description: 'Mời các bạn tới chung vui với 2 vợ chồng mình',
 }
 
 export default function RootLayout({
@@ -13,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="vi" className='bg-slate-800'>
+    <html lang="vi">
       <body>{children}</body>
     </html>
   )

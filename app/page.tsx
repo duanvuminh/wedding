@@ -1,13 +1,15 @@
-import { AudioIcon } from '@/components/AudioIcon'
-import { Content } from '@/components/Content'
-import Image from 'next/image'
+import { AudioIcon } from "@/components/AudioIcon";
+import { Content } from "@/components/Content";
+import { Stack } from "@/components/Stack";
+import { StarFail } from "@/components/StarFail";
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen flex-col items-center justify-between dark:bg-slate-800">
-      <Image className='z-0 object-cover' src='/bg.png' alt='background wedding' fill sizes="100vw"/>
+    <main className="flex h-screen flex-col items-center w-screen -space-y-8">
+      <Stack />
       <Content/>
+      <StarFail/>
       <AudioIcon/>
     </main>
-  )
+  );
 }
