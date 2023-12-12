@@ -1,4 +1,10 @@
-import { dancing } from "@/app/layout";
+import { Dancing_Script } from 'next/font/google'
+
+const dancing = Dancing_Script({
+  subsets: ['latin'],
+  display: 'swap',
+})
+
 
 export function Address() {
   return (
