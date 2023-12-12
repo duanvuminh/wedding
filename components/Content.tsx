@@ -23,13 +23,13 @@ export function Content() {
           <span></span>
           <span></span>
         </div>
-        <h1 className="text-4xl text-white text-center">
-          Lễ cưới của Tân và Duẩn
+        <h1 className="text-4xl text-rose-500 text-center">
+          Lễ cưới của Ngọc Tân và Minh Duẩn
         </h1>
         <div className="bg-white m-10 p-5 rounded opacity-75">
           <h2 className="text-2xl font-extrabold">Thời gian</h2>
           <p className="my-4 text-lg text-gray-500">
-            Ngày 23 tháng 12, 10 giờ 00 sáng
+            Ngày 23 tháng 12, 15 ~ 17 giờ
           </p>
           <h2 className="text-2xl font-extrabold">Địa điểm</h2>
           <p className="my-4 text-lg text-gray-500">👉𝐓𝐚̣𝐢 𝐆𝐢𝐚 Đ𝐢̀𝐧𝐡 𝐍𝐡𝐚̀ Gái:</p>
