@@ -8,7 +8,7 @@ const dancing = Dancing_Script({
 
 export function Address() {
   return (
-    <div className= {`${dancing.className} flex justify-around`}>
+    <div className= {`${dancing.className} flex justify-around my-8`}>
       <div className="grow-1 p-2">
         <h1 className="text-3xl text-center">Nhà trai</h1>
         <p className="text-center">

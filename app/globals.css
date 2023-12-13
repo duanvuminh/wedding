@@ -136,7 +136,7 @@ span:nth-child(9) {
   animation-duration: 2.75s;
 }
 
-.fromLeft{
+.fromLeft {
   position: relative;
   animation-name: fromLeft;
   animation-duration: 3s;
@@ -144,11 +144,15 @@ span:nth-child(9) {
 }
 
 @keyframes fromLeft {
-  from {left: -200px;}
-  to {left: 0px;}
+  from {
+    left: -200px;
+  }
+  to {
+    left: 0px;
+  }
 }
 
-.fromRight{
+.fromRight {
   position: relative;
   animation-name: fromRight;
   animation-duration: 3s;
@@ -156,11 +160,15 @@ span:nth-child(9) {
 }
 
 @keyframes fromRight {
-  from {right: -200px;}
-  to {right: 0px;}
+  from {
+    right: -200px;
+  }
+  to {
+    right: 0px;
+  }
 }
 
-.fromTop{
+.fromTop {
   position: relative;
   animation-name: fromTop;
   animation-duration: 3s;
@@ -168,11 +176,15 @@ span:nth-child(9) {
 }
 
 @keyframes fromTop {
-  from {top: -50px;}
-  to {top: 0px;}
+  from {
+    top: -50px;
+  }
+  to {
+    top: 0px;
+  }
 }
 
-.fromBottom{
+.fromBottom {
   position: relative;
   animation-name: fromBottom;
   animation-duration: 3s;
@@ -180,11 +192,15 @@ span:nth-child(9) {
 }
 
 @keyframes fromBottom {
-  from {bottom: -50px;}
-  to {bottom: 0px;}
+  from {
+    bottom: -50px;
+  }
+  to {
+    bottom: 0px;
+  }
 }
 
-.fromTop1{
+.fromTop1 {
   position: relative;
   animation-name: fromTop1;
   animation-duration: 3s;
@@ -192,11 +208,15 @@ span:nth-child(9) {
 }
 
 @keyframes fromTop1 {
-  from {top: -20px;}
-  to {top: 0px;}
+  from {
+    top: -20px;
+  }
+  to {
+    top: 0px;
+  }
 }
 
-.fromBottom1{
+.fromBottom1 {
   position: relative;
   animation-name: fromBottom1;
   animation-duration: 3s;
@@ -204,6 +224,91 @@ span:nth-child(9) {
 }
 
 @keyframes fromBottom1 {
-  from {bottom: -20px;}
-  to {bottom: 0px;}
+  from {
+    bottom: -20px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+.waviy p {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 3s infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+.waviy p:nth-child(1) {
+  --i: 1;
+}
+.waviy p:nth-child(2) {
+  --i: 2;
+}
+.waviy p:nth-child(3) {
+  --i: 3;
+}
+.waviy p:nth-child(4) {
+  --i: 4;
+}
+.waviy p:nth-child(5) {
+  --i: 5;
+}
+.waviy p:nth-child(6) {
+  --i: 6;
+}
+.waviy p:nth-child(7) {
+  --i: 7;
+}
+.waviy p:nth-child(8) {
+  --i: 8;
+}
+.waviy p:nth-child(9) {
+  --i: 9;
+}
+.waviy p:nth-child(10) {
+  --i: 10;
+}
+.waviy p:nth-child(11) {
+  --i: 11;
+}
+.waviy p:nth-child(12) {
+  --i: 12;
+}
+.waviy p:nth-child(13) {
+  --i: 13;
+}
+.waviy p:nth-child(14) {
+  --i: 14;
+}
+.waviy p:nth-child(15) {
+  --i: 15;
+}
+.waviy p:nth-child(16) {
+  --i: 16;
+}
+.waviy p:nth-child(17) {
+  --i: 17;
+}
+.waviy p:nth-child(18) {
+  --i: 18;
+}
+.waviy p:nth-child(19) {
+  --i: 19;
+}
+@keyframes waviy {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
 }

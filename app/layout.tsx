@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="vi">
+    <html lang="vi" className='bg-slate-800'>
       <body>{children}</body>
     </html>
   )
