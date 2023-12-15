@@ -5,12 +5,12 @@ const dancing = Dancing_Script({
   display: 'swap',
 })
 
-export function RightName({ name }: { name: string }) {
+export function RightName() {
   return (
     <p
       className={`${dancing.className} w-1/2 text-3xl text-gray-500 text-left float-right fromRight`}
     >
-      {name}
+      <label className='title-word title-word-3'>Ngọc </label><label className='title-word title-word-4'>Tân</label>👰‍♀️
     </p>
   );
 }
